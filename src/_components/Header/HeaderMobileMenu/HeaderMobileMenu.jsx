@@ -93,7 +93,9 @@ const HeaderMobileMenu = () => {
 			<div className='header-mobile-wrapper'>
 				<motion.nav initial={false} animate={isOpen ? 'open' : 'closed'}>
 					<div className='header-menu'>
-						<LogoIcon className='header-logo' />
+						<a href='#home'>
+							<LogoIcon className='header-logo' />
+						</a>
 						<button onClick={() => toggleOpen()}>
 							<MenuToggleIcon />
 						</button>

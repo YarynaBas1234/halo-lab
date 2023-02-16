@@ -29,12 +29,13 @@ const Navbar = () => {
 };
 
 const HeaderMenu = () => {
-
 	return (
 		<header className='header'>
 			<div className='header-wrapper'>
 				<div className='header-menu'>
-					<LogoIcon className='header-logo' />
+					<a href='#home'>
+						<LogoIcon className='header-logo' />
+					</a>
 					<Navbar />
 					<AnimatedButton color='secondary'>Apply</AnimatedButton>
 				</div>
