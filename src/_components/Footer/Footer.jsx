@@ -29,13 +29,13 @@ const Footer = () => {
 				<div className='footer-column'>
 					<p className='footer-h2'>Social media</p>
 					<div className='footer-contact-icons'>
-						<a href='#' className='icon'>
+						<a href='#twitter' className='icon'>
 							<TwitterIcon className='icon' />
 						</a>
-						<a href='#' className='icon'>
+						<a href='#facebook' className='icon'>
 							<FacebookIcon />
 						</a>
-						<a href='#' className='icon'>
+						<a href='#linkedin' className='icon'>
 							<LinkedInIcon />
 						</a>
 					</div>
